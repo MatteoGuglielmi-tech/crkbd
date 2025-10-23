@@ -33,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       HP_TAB,   KC_A,   KC_S,    KC_D,    KC_F,    KC_G,                         KC_H,    KC_J,    KC_K,    KC_L,    TD_CLN,  TD_QUOTE,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LSFT,    KC_Z,   KC_X,    KC_C,    KC_V,    KC_B,                       KC_N,    KC_M,    TD_COMM, TD_DOT,  TD_SLSH, KC_RGUI,
+      KC_LSFT,  KC_Z,   KC_X,    KC_C,    KC_V,    KC_B,                         KC_N,    KC_M,    TD_COMM, TD_DOT,  TD_SLSH, KC_RGUI,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                    KC_LCTL,   MO(_LOWER),  HP_SPC,     KC_ENT,   MO(_RAISE), KC_RALT
                                //|----------------------------------| |---------------------------------|
@@ -45,7 +45,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       HP_TAB,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,                         KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_CAPS,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LSFT, KC_UNDO, KC_CUT,  KC_COPY, KC_PASTE, XXXXXXX,                     KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT, KC_PGUP,  KC_PGDN,
+      KC_LSFT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT, KC_PGUP,  KC_PGDN,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LCTL, _______, HP_SPC,     KC_ENT,   MO(_RAISE), KC_RALT
                                       //`--------------------------'  `--------------------------'
